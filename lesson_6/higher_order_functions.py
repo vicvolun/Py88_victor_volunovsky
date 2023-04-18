@@ -10,6 +10,10 @@ def print_func_name_3():
     print('print_func_name_3')
 
 
+def print_func_name_4():
+    print('print_func_name_4')
+
+
 def higher_order_func(func, n):
     for i in range(n):
         func()
